@@ -1,0 +1,73 @@
+body{
+    background-color: #222;
+    background-image: url("./pattern.png");
+    color: #fff;
+    font-family: tahoma;
+}
+
+#site-header{
+    text-align: center;
+    padding: 20px;
+}
+
+#site-content{
+    line-height: 36px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .product_image img{
+    width: 100%;
+  }
+
+  .includes_pack{
+    text-align: center;
+    color: yellow;
+  }
+
+  #site-content h1{
+    color: #39FF14;
+    line-height: 46px;
+    text-align: center;
+  }
+
+  .button_buy a{
+    background: yellow;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #111;  
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .button_buy{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .button_buy a:hover{
+    background: #fff;
+  }
+
+  .copyright{
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+
+
+  @media screen and (max-width: 500px) {
+    #site-content h1{
+        font-size: 1.6rem;
+        text-align: left;
+    }
+  }
